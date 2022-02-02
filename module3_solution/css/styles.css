@@ -1,0 +1,74 @@
+body {
+	font-size:16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+	background-color: #f6b319;
+	border-radius:0;
+	border: 0;
+}
+
+#logo-img {
+	background: url("../images/logo2.png") no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+}
+
+.navbar-brand h1 {
+	color: #557c3e;
+	font-weight: bold;
+	line-height: .75;
+	margin-top: 10px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p {
+	font-size: 0.9em;
+	margin-top: 15px;
+}
+.navbar-brand p spam {
+	vertical-align: middle;
+}
+
+
+.foodbox{
+	color:black;
+	background-color: gray;
+	padding: 10px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 15px;
+}
+.foodname{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.75em;
+}
+.foodtext{
+	font-size: 1.2em;
+}
+
+#collapsable-nav {
+	background-color:  #557c3e;
+}
+a, a:hover, a:focus, a:active {
+	text-decoration: none !important;
+	color: inherit;
+}
+.navbar-header{
+width: 100%;
+overflow: hidden;
+}
+.nav-item{
+	text-align: center;
+	margin-bottom: -1px;
+	margin-top: -1px;
+	border-style: solid;
+	border-color: black;
+	padding: 3px;
+}
